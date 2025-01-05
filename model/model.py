@@ -54,7 +54,7 @@
 # # Function to load and preprocess the data
 # def get_clean_data():
 #     # Load the dataset
-#     data = pd.read_csv("../data/data.csv")
+#     data = pd.read_csv("data/data.csv")
 #     # Drop unnecessary columns
 #     data = data.drop(['Unnamed: 32'], axis=1, errors='ignore')
 #     # Map the target variable: Malignant ('M') as 1, Benign ('B') as 0
@@ -141,7 +141,7 @@ def create_model(data):
 # Function to load and preprocess the data
 def get_clean_data():
     # Load the dataset
-    data = pd.read_csv("../data/data.csv")
+    data = pd.read_csv("data/data.csv")
     # Drop unnecessary columns
     data = data.drop(['Unnamed: 32'], axis=1, errors='ignore')
     # Map the target variable: Malignant ('M') as 1, Benign ('B') as 0
